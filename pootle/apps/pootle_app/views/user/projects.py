@@ -8,7 +8,7 @@
 
 
 from pootle.core.views.decorators import (requires_permission_class,
-                                            set_permissions)
+                                          set_permissions)
 from pootle_app.models.directory import Directory
 from pootle_app.views.admin import ProjectGenericAdminView
 

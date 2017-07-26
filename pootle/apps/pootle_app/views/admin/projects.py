@@ -14,13 +14,13 @@ from pootle.core.delegate import formats
 from pootle.core.http import JsonResponse
 from pootle.core.views import APIView
 from pootle.core.views.decorators import (requires_permission_class,
-                                            set_permissions)
+                                          set_permissions)
 from pootle.core.views.mixins import SuperuserRequiredMixin
 from pootle_app.forms import ProjectForm
 from pootle_app.models.directory import Directory
 from pootle_app.models.permissions import (PermissionSet,
-                                            check_user_permission, 
-                                            get_pootle_permission)
+                                           check_user_permission,
+                                           get_pootle_permission)
 from pootle_language.models import Language
 from pootle_project.models import PROJECT_CHECKERS, Project
 
